@@ -51,7 +51,8 @@ values."
      ;; version-control
      (haskell :variables haskell-completion-backend 'intero
                          haskell-enable-hindent-style "johan-tibell")
-     latex
+     (latex :variables latex-build-command "LaTeX"
+                       latex-enable-auto-fill nil)
      themes-megapack
      )
    ;; List of additional packages that will be installed without being
