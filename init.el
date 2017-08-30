@@ -316,7 +316,9 @@ you should place your code here."
   (global-linum-mode)
   (linum-relative-toggle)
 
-  (setq-default evil-escape-key-sequence "jk")
+  (setq-default evil-escape-key-sequence "kw"
+                evil-ex-substitute-global t
+                evil-move-beyond-eol t)
 
   (global-company-mode)
   )
