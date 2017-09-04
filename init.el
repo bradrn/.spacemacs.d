@@ -37,7 +37,7 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      ivy
-     auto-completion
+     (auto-completion :variables auto-completion-complete-with-key-sequence "kw")
      ;; better-defaults
      emacs-lisp
      git
