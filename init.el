@@ -345,6 +345,11 @@ you should place your code here."
  '(cua-read-only-cursor-color "#859900")
  '(evil-want-Y-yank-to-eol nil)
  '(fci-rule-color "#3C3D37")
+ '(haskell-indentation-layout-offset 4)
+ '(haskell-indentation-left-offset 4)
+ '(haskell-indentation-starter-offset 4)
+ '(haskell-indentation-where-post-offset 4)
+ '(haskell-indentation-where-pre-offset 4)
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-symbol-colors
    (--map
