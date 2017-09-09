@@ -326,6 +326,9 @@ you should place your code here."
                 evil-move-beyond-eol t)
 
   (global-company-mode)
+
+  ; from https://github.com/syl20bnr/spacemacs/issues/9197
+  (with-eval-after-load 'ivy (setq ivy-initial-inputs-alist nil))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
