@@ -316,7 +316,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
                                                    :width normal
                                                    :powerline-scale 1.1)))
         ((eq system-type 'gnu/linux)
-         (setq-defaule dotspacemacs-default-font '("Ubuntu Mono"
+         (setq-default dotspacemacs-default-font '("Ubuntu Mono"
                                                    :size 13
                                                    :weight normal
                                                    :width normal
