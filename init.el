@@ -346,6 +346,8 @@ you should place your code here."
 
   ; from https://github.com/syl20bnr/spacemacs/issues/9197
   (with-eval-after-load 'ivy (setq ivy-initial-inputs-alist nil))
+
+  (require 'helm-bookmark)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
