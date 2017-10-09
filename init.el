@@ -58,7 +58,7 @@ values."
      (shell :variables shell-default-shell 'eshell
             shell-default-position 'right)
      yaml
-     (evil-snipe :variables evil-snipe-enable-alternate-f-and-t-behaviors t)
+     evil-snipe
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
