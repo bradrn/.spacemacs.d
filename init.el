@@ -349,7 +349,19 @@ you should place your code here."
   (with-eval-after-load 'ivy (setq ivy-initial-inputs-alist nil))
 
   (require 'helm-bookmark)
-  )
+
+  ; from http://spacemacs.org/layers/+lang/haskell/README.html#indentation-doesnt-reset-when-pressing-return-after-an-empty-line
+  (defun haskell-indentation-advice ()
+    (when (and (< 1 (line-number-at-pos))
+               (save-excursion
+                 (forward-line -1)
+                 (string= "" (s-trim (buffer-substring (line-beginning-position) (line-end-position))))))
+      (delete-region (line-beginning-position) (point))))
+
+  (advice-add 'haskell-indentation-newline-and-indent
+              :after 'haskell-indentation-advice)
+
+)
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
