@@ -76,7 +76,8 @@ values."
    dotspacemacs-excluded-packages '(firebelly-theme
                                     niflheim-theme
                                     pastels-on-dark-theme
-                                    tronesque-theme)
+                                    tronesque-theme
+                                    zonokai-theme)
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and uninstall any
