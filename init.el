@@ -368,6 +368,9 @@ you should place your code here."
               :after 'haskell-indentation-advice)
 
   (setq-default ispell-program-name "c:/Program Files (x86)/Aspell/bin/aspell.exe")
+
+  (setq font-latex-fontify-sectioning 'color
+        font-latex-fontify-script     nil)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -459,4 +462,4 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(font-latex-verbatim-face ((t nil))))
