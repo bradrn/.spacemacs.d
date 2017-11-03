@@ -43,8 +43,7 @@ values."
      git
      ;; markdown
      ;; org
-     (spell-checking :variables ispell-dictionary "british"
-                                spell-checking-enable-by-default nil)
+     (spell-checking :variables ispell-dictionary "british")
      (syntax-checking :variables syntax-checking-enable-tooltips nil)
      ;; version-control
      (haskell :variables haskell-completion-backend 'intero
