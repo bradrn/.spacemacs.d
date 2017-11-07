@@ -372,6 +372,19 @@ you should place your code here."
 
   (setq font-latex-fontify-sectioning 'color
         font-latex-fontify-script     nil)
+  ; from https://tex.stackexchange.com/questions/286028/inverse-search-with-emacs-auctex-and-sumatrapdf-on-windows-10
+  (setq TeX-PDF-mode t)
+  (setq TeX-source-correlate-mode t)
+  (setq TeX-source-correlate-method 'synctex)
+  (setq TeX-view-program-list
+  '(("Sumatra PDF" ("\"C:/Program Files (x86)/SumatraPDF/SumatraPDF.exe\" -reuse-instance"
+     (mode-io-correlate " -forward-search %b %n ") " %o"))))
+
+  (eval-after-load 'tex
+   '(progn
+     (assq-delete-all 'output-pdf TeX-view-program-selection)
+     (add-to-list 'TeX-view-program-selection '(output-pdf "Sumatra PDF"))))
+  (server-start)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
