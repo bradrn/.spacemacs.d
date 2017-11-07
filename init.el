@@ -377,7 +377,7 @@ you should place your code here."
   (setq TeX-source-correlate-mode t)
   (setq TeX-source-correlate-method 'synctex)
   (setq TeX-view-program-list
-  '(("Sumatra PDF" ("\"C:/Program Files (x86)/SumatraPDF/SumatraPDF.exe\" -reuse-instance"
+  '(("Sumatra PDF" ("\"C:/Program Files/SumatraPDF/SumatraPDF.exe\" -reuse-instance"
      (mode-io-correlate " -forward-search %b %n ") " %o"))))
 
   (eval-after-load 'tex
