@@ -348,6 +348,7 @@ you should place your code here."
   (linum-relative-toggle)
 
   (setq-default evil-escape-key-sequence "jw"
+                evil-escape-delay 0.2
                 evil-ex-substitute-global t
                 evil-move-beyond-eol t)
 
