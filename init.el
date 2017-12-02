@@ -353,6 +353,9 @@ you should place your code here."
                 evil-ex-substitute-global t
                 evil-move-beyond-eol t)
 
+  (spacemacs/set-leader-keys "oc" 'calc)
+  (spacemacs/set-leader-keys "oC" 'calc-embedded)
+
   (global-company-mode)
 
   ; from https://github.com/syl20bnr/spacemacs/issues/9197
