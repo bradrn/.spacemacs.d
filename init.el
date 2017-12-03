@@ -59,7 +59,7 @@ values."
      (shell :variables shell-default-shell 'eshell
             shell-default-position 'right)
      yaml
-     (evil-snipe :variables evil-snipe-enable-alternate-f-and-t-behaviors t)
+     evil-snipe
      python
      common-lisp
      )
