@@ -448,6 +448,7 @@ you should place your code here."
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(safe-local-variable-values (quote ((TeX-command-extra-options . "-shell-escape"))))
+ '(scroll-margin 3)
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
  '(term-default-bg-color "#002b36")
  '(term-default-fg-color "#839496")
