@@ -415,6 +415,7 @@ you should place your code here."
  '(evil-ex-visual-char-range t)
  '(evil-want-Y-yank-to-eol nil)
  '(fci-rule-color "#3C3D37" t)
+ '(flycheck-display-errors-function (quote flycheck-display-error-messages-unless-error-list))
  '(haskell-indentation-layout-offset 4)
  '(haskell-indentation-left-offset 4)
  '(haskell-indentation-starter-offset 4)
