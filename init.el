@@ -355,6 +355,8 @@ you should place your code here."
                 evil-ex-substitute-global t
                 evil-move-beyond-eol t)
 
+  (setq fci-always-use-textual-rule t)
+
   (spacemacs/set-leader-keys "oc" 'calc)
   (spacemacs/set-leader-keys "oC" 'calc-embedded)
 
@@ -414,7 +416,8 @@ you should place your code here."
  '(cua-read-only-cursor-color "#859900")
  '(evil-ex-visual-char-range t)
  '(evil-want-Y-yank-to-eol nil)
- '(fci-rule-color "#3C3D37" t)
+ '(fci-rule-character 9474)
+ '(fci-rule-color "#3C3D37")
  '(flycheck-display-errors-function (quote flycheck-display-error-messages-unless-error-list))
  '(haskell-indentation-layout-offset 4)
  '(haskell-indentation-left-offset 4)
