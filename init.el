@@ -357,6 +357,16 @@ you should place your code here."
 
   (spacemacs/set-leader-keys "oc" 'calc)
   (spacemacs/set-leader-keys "oC" 'calc-embedded)
+  (spacemacs/set-leader-keys "oq" 'quick-calc)
+  ; from https://emacs.stackexchange.com/a/24410
+  (defun copy-calc-top ()
+    "Copy the thing at the top of the calc stack."
+    (interactive)
+    (let ((val (calc-top)))
+      (kill-new (if (Math-scalarp val)
+                    (math-format-number val)
+                  (math-format-flat-expr-fancy val 0)))))
+  (spacemacs/set-leader-keys "oy" 'copy-calc-top)
 
   (global-company-mode)
 
