@@ -355,9 +355,9 @@ you should place your code here."
 
   (setq fci-always-use-textual-rule t)
 
-  (spacemacs/set-leader-keys "oc" 'calc)
-  (spacemacs/set-leader-keys "oC" 'calc-embedded)
-  (spacemacs/set-leader-keys "oq" 'quick-calc)
+  (spacemacs/set-leader-keys "occ" 'calc)
+  (spacemacs/set-leader-keys "ocC" 'calc-embedded)
+  (spacemacs/set-leader-keys "ocq" 'quick-calc)
   ; from https://emacs.stackexchange.com/a/24410
   (defun copy-calc-top ()
     "Copy the thing at the top of the calc stack."
