@@ -434,7 +434,7 @@ you should place your code here."
  '(haskell-indentation-where-pre-offset 4)
  '(hasky-extensions
    (quote
-    ("OverloadedStrings" "RecordWildCards" "CPP" "FlexibleContexts" "FlexibleInstances" "TemplateHaskell" "Arrows" "BangPatterns" "DataKinds" "DeriveAnyClass" "DeriveDataTypeable" "DeriveFoldable" "DeriveFunctor" "DeriveGeneric" "DeriveTraversable" "EmptyDataDecls" "ExistentialQuantification" "ExplicitForAll" "ForeignFunctionInterface" "FunctionalDependencies" "GADTs" "GeneralizedNewtypeDeriving" "InstanceSigs" "KindSignatures" "LambdaCase" "MagicHash" "MultiParamTypeClasses" "MultiWayIf" "NoImplicitPrelude" "OverloadedLists" "PolyKinds" "QuasiQuotes" "RankNTypes" "RecursiveDo" "ScopedTypeVariables" "StandaloneDeriving" "TupleSections" "TypeApplications" "TypeFamilies" "TypeOperators" "TypeSynonymInstances" "UndecidableInstances" "ViewPatterns")))
+    ("OverloadedStrings" "RecordWildCards" "CPP" "FlexibleContexts" "FlexibleInstances" "TemplateHaskell" "Arrows" "BangPatterns" "DataKinds" "DeriveAnyClass" "DeriveDataTypeable" "DeriveFoldable" "DeriveFunctor" "DeriveGeneric" "DeriveTraversable" "EmptyDataDecls" "ExistentialQuantification" "ExplicitForAll" "ForeignFunctionInterface" "FunctionalDependencies" "GADTs" "GeneralizedNewtypeDeriving" "InstanceSigs" "KindSignatures" "LambdaCase" "MagicHash" "MultiParamTypeClasses" "MultiWayIf" "NoImplicitPrelude" "NamedFieldPuns" "OverloadedLists" "PolyKinds" "QuasiQuotes" "RankNTypes" "RecursiveDo" "ScopedTypeVariables" "StandaloneDeriving" "TupleSections" "TypeApplications" "TypeFamilies" "TypeOperators" "TypeSynonymInstances" "UndecidableInstances" "ViewPatterns")))
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-symbol-colors
    (--map
