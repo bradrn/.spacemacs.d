@@ -366,7 +366,7 @@ you should place your code here."
       (kill-new (if (Math-scalarp val)
                     (math-format-number val)
                   (math-format-flat-expr-fancy val 0)))))
-  (spacemacs/set-leader-keys "oy" 'copy-calc-top)
+  (spacemacs/set-leader-keys "ocy" 'copy-calc-top)
 
   (global-company-mode)
 
