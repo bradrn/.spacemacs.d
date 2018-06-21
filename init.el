@@ -377,7 +377,7 @@ you should place your code here."
   (spacemacs/set-leader-keys-for-major-mode 'haskell-mode "os" 'hasky-stack-execute)
   (spacemacs/set-leader-keys-for-major-mode 'haskell-mode "ox" 'hasky-extensions)
 
-  (setq-default ispell-program-name "c:/Program Files (x86)/Aspell/bin/aspell.exe")
+  (setq-default ispell-program-name "c:/cygwin64/bin/aspell.exe")
   (spacemacs/set-leader-keys-for-minor-mode 'flyspell-mode "oS" 'helm-flyspell-correct)
 
   (setq inferior-lisp-program "C:/sbcl/sbcl.exe")
