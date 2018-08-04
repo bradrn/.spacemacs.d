@@ -384,6 +384,10 @@ you should place your code here."
 
   (setq font-latex-fontify-sectioning 'color
         font-latex-fontify-script     nil)
+  (add-hook 'LaTeX-mode-hook
+            (lambda ()
+              (spacemacs/toggle-spelling-checking-on)
+              (flyspell-buffer)))
   ; adapted from https://lists.nongnu.org/archive/html/auctex/2009-11/msg00016.html
   (evil-define-key 'insert TeX-mode-map (kbd "C-\\") 'TeX-electric-macro)
 
