@@ -463,6 +463,7 @@ you should place your code here."
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(safe-local-variable-values (quote ((TeX-command-extra-options . "-shell-escape"))))
+ '(preview-gs-command "c:/Program Files (x86)/gs/gs9.22/bin/gswin32c.exe")
  '(scroll-margin 3)
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
  '(term-default-bg-color "#002b36")
